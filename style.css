@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+/* Início dos Elementos do Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    height: 120px;
+    background-color: darkorchid;
+    border-bottom: 1px solid black;
+    margin: 0;
+
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 150px;
+}
+
+header div button{
+    border-radius: 10px;
+    height: 40px;
+    background-color: white;
+    font-size: 14px;
+    font-style: bold;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    font-style: bold;
+
+}
+
+#divbusca{
+    border: 2px solid darkslategrey;
+    border-radius: 18px;
+    width: 600px;
+    height: 50px;
+    margin: 0;
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    background-color: white;
+}
+
+#barradebusca{
+    float: left;
+    padding-left: 15px;
+    background-color: transparent;
+    border: none;
+    width: 500px;
+    height: 50px;
+    font-size: 22px;
+    color: black;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+nav a{
+    font-size: 22px;
+    font-style: none;
+    font-family: sans-serif;
+    font-variant: none;
+    color: white;
+    text-underline-offset: none;
+}
+
+/* Fim dos elementos do header */
+/* Começo dos elementos do Main */
+
+main{
+    width: 90vw;
+}
+
+img{
+    width: 30px;
+    height: 60px;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid red;
+    height: 100%;
+    margin: 0;
+}
